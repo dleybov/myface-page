@@ -1,0 +1,390 @@
+body, h1, h2, h3, h4, h5, h6, p, img, a, ul, li, ol {
+    margin: 0px;
+    border: 0;
+    font-size: 100%;
+    line-height: 1px;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    display:flex;
+    width:100%;
+    background: #3F5A93;
+    height: 39px;
+    border-bottom: 1px solid black;
+}
+
+body {
+    width: 100%;
+    background-color: #e9eaed;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 62.5%; /* 1em = 10px */
+     
+}
+.logo {
+    position: relative;
+    top: 8.5px;
+    left: 225px;
+    width: 25px;
+    height: 25px;
+    background-color: #ffffff;
+}
+
+.myface_logo {
+  display: block;
+  position: relative;
+  top: 50%;
+  left: 15%;
+  transform: translate(20%, -25%);
+}
+
+.commentPhoto {
+    display: flex;
+    height:3%;
+    padding-top: 2px;
+    padding-bottom:4px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    margin: 0 10px 0 10px;
+    
+}
+    
+.topSection {
+   
+}
+
+.cover {
+    display: block;
+    width: 70%;
+    margin: auto;
+    max-width: 70%;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    height: 100%;
+}
+
+.cover img {
+    width: 100%;
+    margin:auto;
+    
+}
+.profilePhoto {
+    margin: auto;
+    position: absolute;
+    padding: 5px;
+    transform:translate(15%,-80%);
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    background-color: white;
+}
+.profilePhoto img {
+    width: 190px;
+    height:160px;
+    margin:auto;
+   
+    
+}
+.nav {
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+    border-radius:0 0 5px 5px;
+    z-index: -1;
+}
+
+.nav ul li {
+    
+    display: inline;
+    text-decoration: none;
+    font-weight: bold;
+    color: #3D5D96;
+    position: relative;
+    left: 260px;
+    font-size:160%;
+    top: 25px;
+    border-left: 1px solid lightgray; 
+    padding: 17px;
+    margin:auto;
+}
+.nav li:last-child {
+    border-right: 1px solid lightgray;
+    margin:auto;
+    
+} 
+
+.sideNav {
+    text-align-last: left;
+    border-radius:5px;
+    background-color:white;
+    display: inline-block;
+    font-size: 110%;
+    flex: 1;
+    height: 10%;
+    margin-right:15px;
+    margin-left:0;
+    max-height: none;
+    margin-top:1.5%;
+}
+.sideNav p {
+    display: inline-block;
+    line-height: 32px;
+    color:#696969;
+    font-size: 15px;
+    padding-left: 0;
+    
+}
+
+.aboutTitle {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: none;
+    transform: translate(-10px);
+    
+}
+
+.title {
+    font-family: sans-serif;
+    display:block;
+    font-weight: 700;
+    font-size: 1.5em;
+    background-color: #F9FAFB;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.titleTwo {
+    font-family: sans-serif;
+    display:block;
+    background-color: #F9FAFB;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+
+
+.info li {
+    display:flex;
+    margin: 0 10px 0 10px;
+    list-style: none;
+    line-height: 31px;
+    color: gray;
+    background-color: #ffffff;
+    border-bottom: 1px solid lightgrey;
+    padding:0 5px 0 5px;
+ 
+}
+
+.info li:last-child {
+    border-bottom: none;
+}
+
+.info li:first-child {
+    padding-bottom:0px;
+}
+
+.postInput {
+    border-radius:5px;
+    background-color: white;
+    display: inline-block;
+    height: auto;
+    margin-top:2.5%;
+}
+.postInput p {
+    display:inline-block;
+    padding: 15px;
+    color: dimgrey;
+}
+
+.postForm {
+    color: darkslategrey;
+    background-color: white;
+    display:block;
+    border-radius: 5px;
+}
+
+.postform {
+    background-color: white;
+    display:block;
+    border-radius: 5px;
+    border-bottom-right-radius: unset; 
+    border-bottom-left-radius: unset; 
+    font-size: small; 
+    color: darkslategray; 
+    padding-left: 2%; 
+    background-color: #f4f6f9;
+    font-weight: 800;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+.topic {
+    display: block;
+    margin: 15px auto 15px auto;
+    padding: 4px;
+    flex: 1;
+    width: 510px;
+}
+    
+.post {
+    display: block;
+    height: 90px;
+    margin: 1px auto 15px auto;
+    padding: 4px;
+    width:510px;
+
+}
+
+.postBlock { 
+    margin: 15px 0 0 0;
+    display: inline-block;
+    margin-top:3%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: #ffffff;
+
+}
+
+.postBlock p {
+    padding: 15px;
+    color: dimgrey;
+    text-align: left;
+    font-size: 10px;
+   
+}
+
+.postEntry {
+    font-weight: 700;
+    font-size:1.5em;
+    font-family: sans-serif;
+}
+
+.postTitle {
+    display: block;
+    font-weight:740;
+    height: 30px;
+    border: .5px solid lightgrey;
+    font-size: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.titleThree {
+    display: block;
+
+}
+
+.postText {
+    color: #9FA4A6;
+    font-size: 10px;
+    line-height: 15px;
+    padding: 10px;
+    font-style:normal;
+}
+
+.PostText {
+    display:flex;
+    color: #9FA4A6;
+    font-size: 62%;
+    line-height: 15px;
+    font-style: normal;
+    font-size: 10px;
+    padding-bottom: .5%;
+    width: 96%; 
+}
+
+p {
+    padding-left: 2%;
+}
+
+.SubMiniPost {
+   position: relative;
+   top: 10px;
+}
+
+.mainWrapper {
+    width:70%;
+    margin:10px auto auto auto;
+    display: flex;
+    
+    
+}
+
+.blogWrapper {
+    flex: 2;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+   
+}
+.arrow {
+    padding:0px 15px 0px 15px;
+    color:#696969;
+    transform: translate(0px, -1px);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.postText {
+   font-size:auto;
+}
+
+.comment {
+    display: block;
+    padding: 4px;
+    flex: 1;
+    width: 590px;
+}
+
+.galleryWrapper {
+    display: none;
+
+}
+
+.visibleGallerySection{
+    display: block;
+    
+}
+.gallery {
+    margin: 5px;
+    float:right;
+    width:170px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.gallery li {
+    display: inline-flex;
+    padding-left: 1px;
+}
+.gallery:hover {
+    border: 1px solid #777;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-bottom: none;
+}
+.desc {
+    padding: 15px;
+    text-align:left;
+    border: none;
+}
+
+.galleryNav {
+    display: block;
+    height: 12%;
+}
+
+.images {
+    width: 70%;
+}
+
+#galleryNav {
+    margin-left: -202px;
+}
